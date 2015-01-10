@@ -19,6 +19,7 @@ public class Utils extends BaseClassPage{
     }
     public static boolean isTextPresent(String text){
         System.out.println("text = [" + text + "]");
+        System.out.println("text = [" + text + "]");
         return driver.findElement(By.tagName("body")).getText().contains(text);
     }
 
